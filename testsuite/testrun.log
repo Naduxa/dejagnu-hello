@@ -1,4 +1,4 @@
-Test run by nadezhda on Fri Aug  4 11:52:06 2017
+Test run by nadezhda on Fri Aug  4 12:14:58 2017
 Native configuration is x86_64-pc-linux-gnu
 
 		===  tests ===
@@ -10,9 +10,15 @@ Running target unix
 Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
 Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
 WARNING: Couldn't find tool config file for unix, using default.
-Running ./testsuite.exp ...
-testcase ./testsuite.exp completed in 0 seconds
+Running ./dejagnu-hello.test/test1.exp ...
+UNTESTED: could not test
+testcase ./dejagnu-hello.test/test1.exp completed in 0 seconds
+Running ./dejagnu-hello.test/test2.exp ...
+PASS: test1.2
+testcase ./dejagnu-hello.test/test2.exp completed in 0 seconds
 
 		===  Summary ===
 
-runtest completed at Fri Aug  4 11:52:06 2017
+# of expected passes		1
+# of untested testcases		1
+runtest completed at Fri Aug  4 12:14:58 2017

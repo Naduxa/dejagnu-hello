@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE testsuite [
+<!-- testsuite.dtd -->
+<!ELEMENT testsuite (test | summary)+>
+<!ELEMENT test (input, output, result, name, prms_id )>
+  <!ELEMENT input              (#PCDATA)>
+  <!ELEMENT output             (#PCDATA)>
+  <!ELEMENT result             (#PCDATA)>
+  <!ELEMENT name               (#PCDATA)>
+  <!ELEMENT prms_id            (#PCDATA)>
+  <!ELEMENT summary 	(result, description, total)>
+  <!ELEMENT description        (#PCDATA)>
+  <!ELEMENT total              (#PCDATA)>
+]>
+<testsuite>
+  <test>
+    <input></input>
+    <output></output>
+    <result>UNTESTED</result>
+    <name>could not test</name>
+    <prms_id>0</prms_id>
+  </test>
+  <test>
+    <input></input>
+    <output></output>
+    <result>PASS</result>
+    <name>test1.2</name>
+    <prms_id>0</prms_id>
+  </test>
+  <summary>
+    <result>PASS</result>
+    <description># of expected passes</description>
+    <total>1</total>
+  </summary>
+  <summary>
+    <result>UNTESTED</result>
+    <description># of untested testcases</description>
+    <total>1</total>
+  </summary>
+</testsuite>

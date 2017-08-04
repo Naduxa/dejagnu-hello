@@ -31,4 +31,4 @@ RUNTESTDEFAULTFLAGS = -v -v
 # hello_RUNTESTDEFAULTFLAGS = --srcdir $$srcdir/testsuite testsuite.exp
 
 check:
-	runtest testsuite.exp
+	runtest

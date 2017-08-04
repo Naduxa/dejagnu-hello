@@ -1,4 +1,4 @@
-Test run by nadezhda on Fri Aug  4 11:52:06 2017
+Test run by nadezhda on Fri Aug  4 12:14:58 2017
 Native configuration is x86_64-pc-linux-gnu
 
 		===  tests ===
@@ -7,7 +7,12 @@ Schedule of variations:
     unix
 
 Running target unix
-Running ./testsuite.exp ...
+Running ./dejagnu-hello.test/test1.exp ...
+UNTESTED: could not test
+Running ./dejagnu-hello.test/test2.exp ...
+PASS: test1.2
 
 		===  Summary ===
 
+# of expected passes		1
+# of untested testcases		1
